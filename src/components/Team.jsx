@@ -61,7 +61,7 @@ function Team() {
           <div
             key={index}
             onClick={() => handleteamFilter(item)}
-            className={`py-2 px-4 bg-white rounded-lg font-semibold text-black cursor-pointer m-2 hover:bg-blue-700 hover:text-white leading-normal text-left ${
+            className={`py-2 px-4 bg-white rounded-lg font-extrabold text-black cursor-pointer m-2 hover:bg-blue-700 hover:text-white leading-normal text-left ${
               activeFilter === item ? "bg-blue-600" : ""
             }`}
           >
@@ -82,7 +82,7 @@ function Team() {
           >
             <div className="flex justify-center items-center w-full h-56 relative">
               <img
-                className="w-full h-full rounded-lg flex justify-center"
+                className="w-full h-full rounded-lg"
                 src={urlFor(team.imgUrl).url()}
                 alt={team.name}
               />

@@ -43,9 +43,9 @@ function Contact() {
   };
 
   return (
-    <div className="flex w-full flex-col min-h-screen items-center">
+    <div className="flex w-full flex-col min-h-screen items-center bg-contact bg-repeat">
       <div className=" flex flex-col relative justify-evenly my-8 mt-10">
-        <h1 className="font-bold text-3xl text-center">Contact Us</h1>
+        <h1 className="font-bold text-4xl text-center">Contact Us</h1>
         <p className="text-md mt-4 text-center">
           Any questions or remark? <br />
         </p>
@@ -99,7 +99,7 @@ function Contact() {
         {!isFormSubmitted ? (
           <div className="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-96">
             <form
-              action="https://formspree.io/f/xaykpqjd"
+              action="mailto:csi.ucoe.management@gmail.com"
               method="POST"
               className="flex flex-col space-y-4"
             >
@@ -204,7 +204,7 @@ function Contact() {
               </div>
               <button
                 className="inline-block self-center text-white bg-blue-700 font-bold rounded-lg px-6 py-2 uppercase hover:translate-y-0.5 text-sm"
-                type="submit"
+                type="button"
                 onClick={handleSubmit}
               >
                 {loading ? "Sending" : "Send Message"}
