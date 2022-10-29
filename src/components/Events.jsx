@@ -39,13 +39,13 @@ function Events() {
         Our <span className="text-blue-700">Events</span>
       </h2>
 
-      <div className="flex flex-row justify-center items-center flex-wrap mx-0 mb-8 mt-16">
+      <div className="flex flex-row justify-center items-center font-medium flex-wrap mx-0 mb-8 mt-16">
         {["2017", "2018", "2019", "2020", "2021", "2022", "All"].map(
           (item, index) => (
             <div
               key={index}
               onClick={() => handleEventFilter(item)}
-              className={`py-2 px-4 bg-white rounded-lg font-semibold text-black cursor-pointer m-2 hover:bg-blue-700 hover:text-white leading-normal text-left ${
+              className={`py-2 px-4 bg-white rounded-lg font-extrabold text-black cursor-pointer m-2 hover:bg-blue-700 hover:text-white leading-normal text-left ${
                 activeFilter === item ? "text-white bg-blue-800" : ""
               }`}
             >

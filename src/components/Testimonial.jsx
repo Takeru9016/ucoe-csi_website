@@ -48,7 +48,7 @@ function Testimonial() {
                 alt={testimonials[currentIndex].name}
               />
               <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                <cite className="pr-3 font-medium text-xl text-gray-900 ">
+                <cite className="pr-3 font-medium text-gray-900 ">
                   {testimonials[currentIndex].name}
                 </cite>
               </div>
