@@ -74,6 +74,10 @@ export default function NavBar() {
               <Link to="/team">
                 <li className="text-black text-lg hover:text-blue-800">Our Team</li>
               </Link>
+              <Link className="md:hidden" to="/Contact">
+                <li className="text-black text-lg hover:text-blue-800 md:hidden">Contact Us</li>
+              </Link>
+              
             </ul>
           </div>
         </div>
