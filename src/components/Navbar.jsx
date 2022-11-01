@@ -13,7 +13,6 @@ export default function NavBar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="/" className="flex">
-              {/* <h2 className="text-xl font-bold text-black">UCOE-CSI</h2> */}
               <img src={image.onlycsi} alt="CSI" className="h-16 w-16 a" />
               <h1 className=""></h1>
             </a>
@@ -61,7 +60,7 @@ export default function NavBar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center text-center font-semibold justify-center m-a md:flex md:align-middle md:space-x-6 md:space-y-0 ">
+            <ul className="items-center text-center font-medium justify-center m-a md:flex md:align-middle md:space-x-6 md:space-y-0 ">
               <Link to="/">
                 <li className="text-black text-lg hover:text-blue-800">Home</li>
               </Link>
