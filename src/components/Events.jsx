@@ -62,7 +62,7 @@ function Events() {
       >
         {filterEvent.map((event, index) => (
           <div
-            className="flex flex-col m-8 p-4 rounded-2xl bg-white text-black w-96 cursor-pointer shadow-none hover:shadow-2xl"
+            className="flex flex-col m-8 p-4 rounded-2xl bg-white text-black w-96 cursor-pointer shadow-xl hover:shadow-2xl"
             key={index}
           >
             <div className="flex justify-center items-center w-full h-56 relative">
@@ -73,17 +73,18 @@ function Events() {
               />
             </div>
 
-            <div className="flex justify-center items-center flex-col relative w-full p-2">
+            <div className="flex justify-center items-center flex-col relative w-full p-2 ">
               <p className="text-xl leading-normal text-left text-gray-700">
                 {event.date}
               </p>
               <h4 className="mt-2 text-2xl leading-6">{event.title}</h4>
               <p
-                className="text-sm leading-normal text-left text-gray-700"
+                className="text-sm m-2 leading-normal text-left text-gray-700 line-clamp-6 hover:line-clamp-12"
                 style={{ marginTop: 10 }}
               >
                 {event.description}
               </p>
+              {/* <p className="text-gray-400">Hover to Read more</p> */}
             </div>
           </div>
         ))}

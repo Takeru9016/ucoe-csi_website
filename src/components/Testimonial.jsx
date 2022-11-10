@@ -23,7 +23,7 @@ function Testimonial() {
     <>
       {testimonials.length && (
         <>
-          <figure className="mx-auto max-w-screen-md text-center">
+          <figure className="mx-auto max-w-screen-md  text-center">
             <svg
               aria-hidden="true"
               className="mx-auto mb-3 w-12 h-12 text-gray-400 dark:text-gray-600"
@@ -37,7 +37,7 @@ function Testimonial() {
               />
             </svg>
             <blockquote>
-              <p className="text-2xl italic font-medium text-gray-900 ">
+              <p className="text-xl   text-gray-900 ">
                 {testimonials[currentIndex].feedback}
               </p>
             </blockquote>

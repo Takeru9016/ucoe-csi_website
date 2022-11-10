@@ -99,7 +99,7 @@ function Contact() {
         {!isFormSubmitted ? (
           <div className="bg-white rounded-xl shadow-lg p-8 text-gray-600 md:w-96">
             <form
-              action="mailto:csi.ucoe.management@gmail.com"
+              action="https://formspree.io/f/xoqbyygw"
               method="POST"
               className="flex flex-col space-y-4"
             >
@@ -204,8 +204,7 @@ function Contact() {
               </div>
               <button
                 className="inline-block self-center text-white bg-blue-700 font-bold rounded-lg px-6 py-2 uppercase hover:translate-y-0.5 text-sm"
-                type="button"
-                onClick={handleSubmit}
+                type="submit"
               >
                 {loading ? "Sending" : "Send Message"}
               </button>

@@ -1,7 +1,6 @@
 import Testimonial from "./Testimonial";
 import Quote from "./Quote";
 import "./Home.css";
-import Footer from "./Footer";
 import Image from "./Image";
 
 function Home() {
@@ -12,7 +11,7 @@ function Home() {
       </h2>
       <Image />
       <h3 className="mt-5 flex justify-center items-center text-2xl">Quotes</h3>
-      <h4 className="m-10 text-center md:text-right">
+      <h4 className="m-10 text-center md:text-center">
         <Quote />
       </h4>
       <div>
@@ -24,7 +23,7 @@ function Home() {
         </h4>
       </div>
       <div>
-        <Footer />
+
       </div>
     </div>
   );

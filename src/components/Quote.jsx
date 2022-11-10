@@ -33,7 +33,7 @@ export default function QuoteCard() {
   }
 
   return (
-    <div className="mt-5 text-3xl flex justify-center items-center">
+    <div className="mt-5 text-3xl flex flex-col p-7 justify-center items-center">
       <CardContent>
         {loadingQuote ? (
           <div>

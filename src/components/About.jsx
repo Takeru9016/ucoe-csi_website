@@ -11,12 +11,7 @@ function About() {
       <div className=" items-center mx-10 m-auto md:flex md:justify-evenly md:items-center md:text-center">
         <img className="h-66 w-60 md:h-72 md:w-64 m-auto pt-6" src={image.aboutus} alt="about_us" />
         <p className="text-center  m-2  font-medium md:text-center lg:text-left lg:pl-20 lg:text-lg">
-          CSI student members from Universal College of Engineering had been for
-          National Cyber Security Seminar, Debate n Quiz Contest held at Defence
-          Institute of Advance Technology, Pune on 14th and 15th of July,2017.
-          The following students have bagged some prices Chintan Popat from TE
-          IT won 1trophy, 1 gold medal, 2 silver medals, Jayraj Chopda from BE
-          IT won 1 silver medal, Keval Morakhia from TE IT won 1 bronze medal.
+        Computer Society of India is a body of computer professionals in India. It was started on 6 March 1965 by a few computer professionals and has now grown to be the national body representing computer professionals. It has 72 chapters across India, 511 student branches, and 100,000 members.CSI student body of Universal college aka UCOE-CSI from all the tech departments presents other students to grow in their respective field by helping them through holding workshops, seminars, competitation. CSI constantly helps to increase the knowledge domain and look out to guide each student. 
         </p>
       </div>
       <div className="motto">

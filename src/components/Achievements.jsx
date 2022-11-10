@@ -26,19 +26,19 @@ function Achievements() {
           <figure className="mx-auto max-w-screen-md text-center">
             <figcaption className="flex justify-center items-center mt-6 space-x-3">
               <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                <cite className="pr-3 font-bold text-2xl text-gray-900 ">
+                <cite className="pr-3 font-bold text-xl text-gray-900 ">
                   {achievements[currentIndex].name}
                 </cite>
               </div>
             </figcaption>
             <blockquote>
-              <p className="text-2xl mt-5 italic font-medium text-gray-900 ">
+              <p className="text-l mt-5  font-medium text-gray-900 ">
                 {achievements[currentIndex].awards}
               </p>
             </blockquote>
           </figure>
 
-          <div className="flex flex-row mt-4 justify-center items-center">
+          <div className="flex flex-row mt-4 mb-10 justify-center items-center">
             <div
               className="flex justify-center items-center m-4"
               onClick={() =>

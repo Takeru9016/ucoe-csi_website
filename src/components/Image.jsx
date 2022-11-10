@@ -30,16 +30,16 @@ function Image() {
         <section>
           <div>
             <img
-              className="relative mt-10 left-[350px] max-2xl:left-24 max-xl:w-full max-lg:left-0 max-md:left-0 w-[1250px] h-[600px] rounded-2xl flex justify-center items-center"
+              className="relative mt-10 left-[350px] max-2xl:left-24 max-xl:w-fit max-lg:left-0 max-md:left-0 w-[1250px] h-[600px] rounded-2xl object-contain md:object-cover flex justify-center items-center"
               src={urlFor(home[currentIndex].imgurl)}
               alt={home[currentIndex].name}
             />
             <BiLeftArrowAlt
-              className="absolute top-[50%] left-[32px] text-5xl text-black z-1o cursor-pointer select-none"
+              className="absolute top-[500px] left-[32px] text-5xl text-black z-1o cursor-pointer select-none border-2 rounded-3xl bg-gray-200"
               onClick={prevSlide}
             />
             <BiRightArrowAlt
-              className="absolute top-[50%] right-[32px] text-5xl text-black z-1o cursor-pointer select-none"
+              className="absolute top-[500px] right-[32px] text-5xl text-black  z-1o cursor-pointer select-none border-2 rounded-3xl bg-gray-200"
               onClick={nextSlide}
             />
           </div>

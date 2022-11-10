@@ -3,6 +3,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      lineClamp:{
+        12:"20",
+      },
       backgroundImage: {
         contact: "url('src/assets/one.png')",
       },
@@ -39,5 +42,7 @@ module.exports = {
       // => @media (max-width: 639px) { ... }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 };
