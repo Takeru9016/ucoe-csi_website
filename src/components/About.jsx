@@ -32,13 +32,14 @@ function About() {
             dedicated academicians. 
           </p>
           </div>
-          <img className=" h-40 w-36 md:h-40 md:w-40  m-auto p-4" src={image.aboutus} alt="about_us" />
+          <img className=" h-40 w-36 md:h-40 md:w-40  m-auto p-4" src={image.about1} alt="about_us" />
+          
           </div>
         </blockquote>
         <blockquote className="mt-8 mx-20 text-xl  text-right font-medium text-gray-900">
         <div className="flex flex-col md:flex-row">
         
-        <img className=" h-40 w-36 md:h-40 md:w-40  m-auto p-4 hover:translate-y-1" src={image.aboutus} alt="about_us" />
+        <img className=" h-40 w-36 md:h-40 md:w-40  m-auto p-4 hover:translate-y-1" src={image.about2} alt="about_us" />
         <div className="md:flex-col">
           <h3 className="text-2xl italic text-center font-medium text-gray-900 md:text-right">
             Built for the Development
@@ -65,7 +66,7 @@ function About() {
             professionals. 
           </p>
           </div>
-          <img className=" h-40 w-36 md:h-40 md:w-40  m-auto p-4" src={image.aboutus} alt="about_us" />
+          <img className=" h-40 w-36 md:h-40 md:w-40  m-auto p-4" src={image.about3} alt="about_us" />
           </div>
         </blockquote>
       </div>

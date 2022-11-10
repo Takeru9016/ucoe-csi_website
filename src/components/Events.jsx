@@ -79,7 +79,7 @@ function Events() {
               </p>
               <h4 className="mt-2 text-2xl leading-6">{event.title}</h4>
               <p
-                className="text-sm m-2 leading-normal text-left text-gray-700 line-clamp-6 hover:line-clamp-12"
+                className="text-sm m-2 leading-normal hover:delay-[800] text-left text-gray-700 line-clamp-6 hover:line-clamp-12"
                 style={{ marginTop: 10 }}
               >
                 {event.description}

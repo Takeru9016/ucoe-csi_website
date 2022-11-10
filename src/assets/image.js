@@ -7,6 +7,9 @@ import five from "./five.png";
 import aboutus from "./aboutus.png";
 import csiucoe from "./CSIUCOE.png";
 import onlycsi from "./CSIlogo.png";
+import about1 from "./about1.webp";
+import about2 from "./about2.jpg";
+import about3 from "./about3.jpg";
 
 
 export default {
@@ -18,5 +21,8 @@ export default {
   five,
   aboutus,
   csiucoe,
-  onlycsi
+  onlycsi,
+  about1,
+  about2,
+  about3
 };

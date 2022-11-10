@@ -67,9 +67,9 @@ function Contact() {
             <div className="inline-flex space-x-2 items-center">
               <div className="inline-flex space-x-2 items-center">
                 <EmailIcon />
-                <a href="mailto:csi.ucoe.management@gmail.com">
+                
                   <span>csi.ucoe.management@gmail.com</span>
-                </a>
+                
               </div>
             </div>
             <div>
