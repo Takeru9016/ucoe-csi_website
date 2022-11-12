@@ -2,8 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { image } from "../assets";
 
-import  Home  from "./Home";
-
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
@@ -65,28 +63,35 @@ export default function NavBar() {
                 <li className="text-black text-lg hover:text-blue-800">Home</li>
               </Link>
               <Link to="/about">
-                <li className="text-black text-lg hover:text-blue-800">About Us</li>
+                <li className="text-black text-lg hover:text-blue-800">
+                  About Us
+                </li>
               </Link>
               <Link to="/events">
-                <li className="text-black text-lg hover:text-blue-800">Events</li>
+                <li className="text-black text-lg hover:text-blue-800">
+                  Events
+                </li>
               </Link>
               <Link to="/team">
-                <li className="text-black text-lg hover:text-blue-800">Our Team</li>
+                <li className="text-black text-lg hover:text-blue-800">
+                  Our Team
+                </li>
               </Link>
               <Link to="/contact" className="md:hidden">
-                <li className="text-black text-lg hover:text-blue-800 md:hidden">Contact</li>
+                <li className="text-black text-lg hover:text-blue-800 md:hidden">
+                  Contact
+                </li>
               </Link>
             </ul>
           </div>
         </div>
         <div className="hidden space-x-2 md:inline-block">
           <Link to="/contact">
-            <li className="px-4 py-2 text-lg text-white bg-blue-600 rounded-md shadow hover:bg-blue-500">
+            <button className="px-4 py-2 text-lg text-white bg-blue-600 rounded-md hover:bg-blue-500">
               Contact Us
-            </li>
+            </button>
           </Link>
         </div>
-
       </div>
     </nav>
   );
