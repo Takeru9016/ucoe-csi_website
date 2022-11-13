@@ -28,18 +28,18 @@ function Image() {
     <>
       {home.length && (
         <section>
-          <div>
+          <div className="relative  m-auto p-5 w-5/5 h-5/5 md:w-4/5 md:h-2/5">
             <img
-              className="relative mt-10 left-[350px] max-2xl:left-24 max-xl:w-fit max-lg:left-0 max-md:left-0 w-[1250px] h-[600px] rounded-2xl object-contain md:object-cover flex justify-center items-center"
+              className=" flex justify-center items-center"
               src={urlFor(home[currentIndex].imgurl)}
               alt={home[currentIndex].name}
             />
             <BiLeftArrowAlt
-              className="absolute top-[500px] left-[32px] text-5xl text-black z-1o cursor-pointer select-none border-2 rounded-3xl bg-gray-200"
+              className="absolute top-1/2 left-[30px] text-5xl text-black z-1o cursor-pointer select-none border-2 rounded-3xl bg-gray-200"
               onClick={prevSlide}
             />
             <BiRightArrowAlt
-              className="absolute top-[500px] right-[32px] text-5xl text-black  z-1o cursor-pointer select-none border-2 rounded-3xl bg-gray-200"
+              className="absolute top-1/2 right-[30px] text-5xl text-black  z-1o cursor-pointer select-none border-2 rounded-3xl bg-gray-200"
               onClick={nextSlide}
             />
           </div>
