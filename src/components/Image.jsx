@@ -30,7 +30,8 @@ function Image() {
         <section>
           <div className="relative  m-auto p-5 w-5/5 h-5/5 md:w-4/5 md:h-2/5">
             <img
-              className=" flex justify-center items-center"
+              layout="fill"
+              className=" flex justify-center items-center rounded-xl object-cover"
               src={urlFor(home[currentIndex].imgurl)}
               alt={home[currentIndex].name}
             />

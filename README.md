@@ -4,7 +4,7 @@
 
 Please upload the website on the below link :
 
-https://universalcollegeofengineering.edu.in/UCOECSI/index.html 
+https://universalcollegeofengineering.edu.in/UCOECSI/
 
 Creator : 
  - Sahil Jadhav (TE - AIML) - 8652022341
